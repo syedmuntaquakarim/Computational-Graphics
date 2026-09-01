@@ -3,10 +3,10 @@ import matplotlib.pyplot as plt
 
 # 1. Parameters
 a = 1 
-k = 5
+k = 7/4
 
 # 2. Polar Domain (1000 points from 0 to 2*pi)
-theta = np.linspace(0, 2 * np.pi, 1000)
+theta = np.linspace(0, 8 * np.pi, 1000)
 
 # 3. Core Equation
 r = a * np.cos(k * theta)
