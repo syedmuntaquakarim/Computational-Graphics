@@ -15,8 +15,16 @@ r = a * np.cos(7/4 * theta) + a * np.sin(3 * theta)
 x = r * np.cos(theta)
 y = r * np.sin(theta)
 
+# additional exp
+p = r * np.cos(theta+np.pi)
+q = r * np.sin(theta+np.pi)
+s = np.linspace(0,-2)
+m = -s**2
+
 # 5. Plot
-plt.plot(x, y, color='cyan')
+plt.plot(x, y, color='pink')
+plt.plot(p, q, color='pink')
+plt.plot(s,m, color='green')
 plt.axis('equal')
 plt.axis('off')
 plt.show()
