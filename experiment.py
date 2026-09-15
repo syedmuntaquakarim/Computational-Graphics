@@ -20,8 +20,8 @@ p = r * np.cos(theta+np.pi)
 q = r * np.sin(theta+np.pi)
 s = np.linspace(0,-2)
 m = -s**2
-h = np.cos(theta)*np.sin(theta) + 4
-g = np.cos(theta)*np.cos(theta) + 4
+h = np.cos(theta)*np.sin(theta) + 3
+g = np.cos(theta)*np.cos(theta) + 3
 
 # 5. Plot
 plt.plot(x, y, color='pink')
