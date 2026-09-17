@@ -26,7 +26,7 @@ line_1 =np.linspace(3.5,4)
 line_1_1 = line_1
 
 # 5. Plot
-plt.plot(np.linspace(3.5,4),np.linspace(3.5,4)-1, color='yellow')
+plt.plot(np.linspace(3.5,4)-1,np.linspace(3.5,4)-2, color='yellow')
 plt.plot(line_1,line_1_1,color='yellow')
 plt.plot(x, y, color='pink')
 plt.plot(p, q, color='pink')
