@@ -22,16 +22,16 @@ s = np.linspace(0,-2)
 m = -s**2
 h = np.cos(theta)*np.sin(theta) + 3
 g = np.cos(theta)*np.cos(theta) + 3
-line_1 =np.linspace(3.5,4)
-line_1_1 = line_1
+
 
 # 5. Plot
-plt.plot(np.linspace(3.5,4)-1,np.linspace(3.5,4)-2, color='yellow')
-plt.plot(line_1,line_1_1,color='yellow')
+for i in range(10):
+    for j in range(10):
+        plt.plot(g-i,h-j ,color='yellow')
 plt.plot(x, y, color='pink')
 plt.plot(p, q, color='pink')
 plt.plot(s,m, color='green')
-plt.plot(g,h ,color='yellow')
+
 plt.axis('equal')
 plt.axis('off')
 plt.show()
