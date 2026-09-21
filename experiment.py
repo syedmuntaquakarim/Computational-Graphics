@@ -6,7 +6,7 @@ a = 1
 k = 7/4
 
 # 2. Polar Domain (1000 points from 0 to 2*pi)
-theta = np.linspace(0, 8 * np.pi, 1000)
+theta = np.linspace(0, 8 * np.pi, 10000)
 
 # 3. Core Equation
 r = a * np.cos(7/4 * theta) + a * np.sin(3 * theta)
