@@ -25,8 +25,8 @@ g = np.cos(theta)*np.cos(theta) + 3
 
 
 # 5. Plot
-for i in range(12):
-    for j in range(12):
+for i in range(13):
+    for j in range(13):
         plt.plot(g-i,h-j ,color='yellow')
 plt.plot(x, y, color='pink')
 plt.plot(p, q, color='pink')
