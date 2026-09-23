@@ -5,8 +5,7 @@ import matplotlib.pyplot as plt
 a = 1 
 k = 7/4
 
-# 2. Polar Domain (1000 points from 0 to 2*pi)
-theta = np.linspace(0, 8 * np.pi, 1000)
+# 2. Polar Domain (1000 points from 0 to 2*pi) theta = np.linspace(0, 8 * np.pi, 10000)
 
 # 3. Core Equation
 r = a * np.cos(7/4 * theta) + a * np.sin(3 * theta)
@@ -25,8 +24,8 @@ g = np.cos(theta)*np.cos(theta) + 3
 
 
 # 5. Plot
-for i in range(13):
-    for j in range(13):
+for i in range(11):
+    for j in range(11):
         plt.plot(g-i,h-j ,color='yellow')
 plt.plot(x, y, color='pink')
 plt.plot(p, q, color='pink')
