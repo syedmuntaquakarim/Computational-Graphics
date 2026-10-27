@@ -20,8 +20,8 @@ p = r * np.cos(theta+np.pi)
 q = r * np.sin(theta+np.pi)
 s = np.linspace(0,-2)
 m = -s**2
-h = np.cos(theta)*np.sin(theta) + 7
-g = np.cos(theta)*np.cos(theta) + 7
+h = np.cos(theta)*np.sin(theta) + 6
+g = np.cos(theta)*np.cos(theta) + 6
 
 
 # 5. Plot
